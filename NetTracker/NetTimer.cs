@@ -64,7 +64,7 @@ namespace NetTracker
             try
             {
                 using (var client = new WebClient())
-                using (client.OpenRead("http://google.de"))
+                using (client.OpenRead("http://google.com"))
                     return true;
             }
             catch

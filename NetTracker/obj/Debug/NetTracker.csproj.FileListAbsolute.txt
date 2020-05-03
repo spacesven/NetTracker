@@ -1,0 +1,9 @@
+S:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\bin\Debug\NetTracker.exe.config
+S:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\bin\Debug\NetTracker.exe
+S:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\bin\Debug\NetTracker.pdb
+S:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.NetTimer.resources
+S:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.ProjectInstaller.resources
+S:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.csproj.GenerateResource.cache
+S:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.csproj.CoreCompileInputs.cache
+S:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.exe
+S:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.pdb

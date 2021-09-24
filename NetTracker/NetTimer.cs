@@ -5,6 +5,7 @@ using System.Data;
 using System.Diagnostics;
 using System.Linq;
 using System.Net;
+using System.Net.NetworkInformation;
 using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,12 +38,12 @@ namespace NetTracker
         private void OnTimedEvent(object sender, ElapsedEventArgs e)
         {
             //WriteEntry("NetTracker", "Timer Runns",EventLogEntryType.SuccessAudit);
-            if (CheckForInternetConnection() == false & ConnectionEstablished == true)
+            if (Pinger() == false & ConnectionEstablished == true)
             {
                 WriteEntry("NetTracker", "Connection Offline", EventLogEntryType.Error);
                 ConnectionEstablished = false;
             }
-            else if (CheckForInternetConnection() == true & ConnectionEstablished == false)
+            else if (Pinger() == true & ConnectionEstablished == false)
             {
                 WriteEntry("NetTracker", "Connection Online", EventLogEntryType.SuccessAudit);
                 ConnectionEstablished = true;
@@ -58,20 +59,33 @@ namespace NetTracker
 
         public bool ConnectionEstablished;
 
-  
-        public static bool CheckForInternetConnection()
+
+        public static bool Pinger()
         {
+            bool pingable = false;
+            Ping pinger = null;
+
             try
             {
-                using (var client = new WebClient())
-                using (client.OpenRead("http://google.com"))
-                    return true;
+                pinger = new Ping();
+                PingReply reply = pinger.Send("1.1.1.1");
+                pingable = reply.Status == IPStatus.Success;
             }
-            catch
+            catch (PingException)
             {
-                return false;
+                // Discard PingExceptions and return false;
             }
+            finally
+            {
+                if (pinger != null)
+                {
+                    pinger.Dispose();
+                }
+            }
+
+            return pingable;
         }
+
 
         public static void WriteEntry(string source, string message, System.Diagnostics.EventLogEntryType type)
         {

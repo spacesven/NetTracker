@@ -7,3 +7,10 @@ S:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.cspr
 S:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.csproj.CoreCompileInputs.cache
 S:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.exe
 S:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.pdb
+D:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.csproj.AssemblyReference.cache
+D:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.NetTimer.resources
+D:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.ProjectInstaller.resources
+D:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.csproj.GenerateResource.cache
+D:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.csproj.CoreCompileInputs.cache
+D:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.exe
+D:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.pdb

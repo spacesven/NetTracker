@@ -2,7 +2,7 @@
 This is a small and lightweight service to check if your internet-connection is working or not.
 It installs a service called "NetTracker" on your system. Starts automatic as LocalSystem
 
-Downlad setup here: https://github.com/spacesven/NetTracker/blob/master/NetTracker_Installer/Debug/setup.exe
+Downlad setup here: https://github.com/spacesven/NetTracker/tree/master/NetTracker_Installer/Debug
 
 - Included uninstaller
 

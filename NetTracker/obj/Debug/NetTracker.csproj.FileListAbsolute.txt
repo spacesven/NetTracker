@@ -14,3 +14,6 @@ D:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.cspr
 D:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.csproj.CoreCompileInputs.cache
 D:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.exe
 D:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\obj\Debug\NetTracker.pdb
+D:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\bin\Debug\NetTracker.exe.config
+D:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\bin\Debug\NetTracker.exe
+D:\OneDrive\Developement\c-sharp\NetTracker\NetTracker\bin\Debug\NetTracker.pdb
